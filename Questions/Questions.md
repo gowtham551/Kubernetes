@@ -11,17 +11,6 @@
 * 3.cluster(Maintain information like a memory)
 * 4.scheduler(Assign work to nodes)
 
-# why Replication Controller?
-* 1.Desired state
-* 2.creting multiple pods
-* 3.deploy our application easily
-* 4.cost is less
-
-# disadvantages of ReplicationController?
-* 1.Need to change labels manually
-* 2.Resource wasting
-* 3.Manually delete pods 
-
 # what is pod?
 * A pod is a basic unit of kubernetes. A pod consist of one or more container images
 
@@ -34,3 +23,22 @@
 
 # where mcp will use?
 * used for applications which are dependent on other applications/services for their functioning.
+
+# what is ReplicationController?
+* it's a key feature of kubernetes
+* it is responsible for managing pods lifecycle
+* it owns the responsibility for making sure that the specified no.of pods replicas are running at any given point of time
+
+# why Replication Controller?
+* 1.Maintain Desired state
+* 2.creting multiple pods
+* 3.deploy our application easily
+* 4.cost is less
+
+# disadvantages of ReplicationController?
+* 1.Need to change labels manually
+* 2.Resource wasting
+* 3.Manually delete pods 
+
+
+
