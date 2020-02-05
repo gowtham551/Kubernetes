@@ -1,9 +1,9 @@
 # Why kubernetes?
+* using kubernetes we can able to create pods
+* pods contain conntainers
 * 1.maintain desired state
 * 2.scalability
 * 3.High availability
-** using kubernetes we can able to create pods
-** pods contain conntainers
 
 # what are 4 components in kubernetes?
 * 1.Api server(decision maker)
