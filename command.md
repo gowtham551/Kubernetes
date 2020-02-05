@@ -27,3 +27,17 @@
 
 * kubectl get ep
 * kubectl describe ep hello-svc
+
+# Basic deploy commands:
+
+* kubectl create -f deploy.yml
+* kubectl describe deploy myjavaapp-deploy
+* kubectl get rs
+* kubectl get deploy
+* kubectl delete deploy/myjavaapp-deploy
+* kubectl delete rs/myjavaapp-deploy
+
+# Rolling update for Deploy
+
+* kubectl apply -f deploy.yml
+* kubectl rollout status deployments myjavaapp-deploy
